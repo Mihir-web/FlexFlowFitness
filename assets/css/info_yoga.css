@@ -1,0 +1,139 @@
+
+#yoga {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background-image: url('../images/into_yoga1.webp');
+    background-size: cover;
+    background-position: left;
+    padding: 25%;
+    color: white;
+    text-align: center;
+
+}
+
+#yoga .Info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 50%; 
+    padding: 30px;
+    color: white; 
+    font-size: 14px;
+    line-height: 1.4; 
+}
+
+.yoga-details {
+    background-image: url('../images/y3.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#yoga-details1 {
+    background-image: linear-gradient(-45deg, #763f04e2, #6f0424ea, #5c0564db), url('../images/Yoga\ Benefits.png');
+    background-size: 250px;
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+    justify-content: space-bet;
+}
+
+.yoga-details2 {
+    background-image: linear-gradient(-45deg, #763f04e2, #6f0424ea, #5c0564db), url('../images/y2.jpeg');
+    color: #ffffff;
+    background-size: 217px;
+}
+
+.yoga-details2 p {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+  ol {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .yoga-details2,
+  .yoga-details3 {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  .sidebar {
+    float: left;
+    width: 100%;
+  }
+  .image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .sidebar-item {
+    margin-bottom: 40px;
+  }
+  .sidebar-item img {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .yoga-details3 {
+    background-image: url('../images/Advanced_yoga.png');
+    background-size: cover;
+    background-position: center;
+    padding: 250px;
+  }
+
+  .yoga-details3 .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .content {
+    display: inline-block;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #ffffff;
+  }
+  
+  .advanced-text {
+    flex: 0;
+    margin-right: 100px;
+  }
+  
+  .image-container {
+    flex: 1;
+    position: relative;
+  }
+  
+  .image-container video {
+    max-width: 100%;
+    height: auto;
+    
+    top: 0;
+    left: 1;
+  }
+  
